@@ -63,3 +63,7 @@ Kako algoritam prilikom računanja preporuke ne razmatra entitete koji nisu sli�
 entitetom (tj. similarity(A, B) <= 0), moguće je da se vrijednost preporuke računa na temelju
 manje od K vrijednosti! Svi ulazni primjeri jamče da će se preporuke uvijek moći izračunati
 makar i na temelju samo jedne vrijednosti u matrici.
+
+**FORMATS**
+in.txt - given input text
+out.txt - expected output formatted text
