@@ -65,5 +65,8 @@ manje od K vrijednosti! Svi ulazni primjeri jamče da će se preporuke uvijek mo
 makar i na temelju samo jedne vrijednosti u matrici.
 
 **FORMATS**
+
 in.txt - given input text
+
+
 out.txt - expected output formatted text
