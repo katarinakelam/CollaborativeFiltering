@@ -24,7 +24,9 @@ Nakon zapisa matrice, iduća linija u ulaznoj datoteci jest konstanta Q koja pre
 sljedeći format. Upit čine 4 broja I, J, T i K koji su odijeljeni praznim znakovima. Broj I (1 <= I <=
 N) predstavlja jednu stavku u matrici, dok J (1 <= J <= M) predstavlja jednog korisnika u matrici
 (I, J zapravo predstavljaju koordinate elementa matrice označenog znakom ‘X’ - element za koji
-je potrebno izračunati vrijednost preporuke). Vrijednost T određuje tip algoritma koji je potrebno
+je potrebno izračunati vrijednost preporuke). 
+
+Vrijednost T određuje tip algoritma koji je potrebno
 koristiti. Ako T ima vrijednost 0, potrebno je koristiti item-item pristup suradničkog filtriranja. U
 sluačaju da T ima vrijednost 1, tada je potrebno koristiti user-user pristup suradničkog filtriran
 Za svaki upit program treba ispisati vrijednost preporuke u zasebnoj liniji u skladu sa
@@ -50,10 +52,12 @@ X 2 4 X 4
 1 3 0 1
 4 1 0 2
 5 5 1 3
+
 Za ovaj primjer, program treba ispisati sljedeći izlaz:
 3.000
 2.198
 2.560
+
 Napomene​:
 Kako algoritam prilikom računanja preporuke ne razmatra entitete koji nisu slični s trenutnim
 entitetom (tj. similarity(A, B) <= 0), moguće je da se vrijednost preporuke računa na temelju
